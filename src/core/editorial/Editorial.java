@@ -18,4 +18,29 @@ public class Editorial {
     private Gerente gerente;
     private ArrayList<String> libros;
     private ArrayList<String> stands;
+
+    public String getNit() {
+        return nit;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public String getDireccion() {
+        return direccion;
+    }
+
+    public Gerente getGerente() {
+        return gerente;
+    }
+
+    public ArrayList<String> getLibros() {
+        return libros;
+    }
+
+    public ArrayList<String> getStands() {
+        return stands;
+    }
+    
 }
