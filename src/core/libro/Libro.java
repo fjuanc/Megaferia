@@ -17,6 +17,34 @@ public class Libro {
     protected String formato;
     protected double valor;
     protected Editorial editorial;
+
+    public String getLibro() {
+        return libro;
+    }
+
+    public ArrayList<Autor> getAutores() {
+        return autores;
+    }
+
+    public String getIsbn() {
+        return isbn;
+    }
+
+    public String getGenero() {
+        return genero;
+    }
+
+    public String getFormato() {
+        return formato;
+    }
+
+    public double getValor() {
+        return valor;
+    }
+
+    public Editorial getEditorial() {
+        return editorial;
+    }
     
     
 }
